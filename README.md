@@ -15,7 +15,7 @@ $ dart bin/main.dart
 ## Running the client
 
 1. CD into the client folder
-2. Enter `flutter run` in the Terminal to launch the project in your emulator. Make sure you have one connected.
+2. Enter `flutter run -d chrome` in the Terminal to launch the project in your emulator. Make sure you have one connected.
 
 ## Build the web version
 

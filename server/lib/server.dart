@@ -4,9 +4,9 @@ import 'package:sevr/sevr.dart';
 void start() async {
   // Log into database
   final db = await Db.create(
-      'mongodb+srv://cbuser:cbpass@cluster0.xpkap.mongodb.net/test?retryWrites=true&w=majority');
+      'mongodb+srv://godzy_edk:dattebayo@userdata.fogxh.mongodb.net/Userdata?retryWrites=true&w=majority');
   await db.open();
-  final coll = db.collection('contacts');
+  final coll = db.collection('Userdata');
 
   // Create server
   const port = 8081;
